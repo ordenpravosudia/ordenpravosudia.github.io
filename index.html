@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <base href="/" />
+
+    <!-- Add a plain CSS file: see https://trunkrs.dev/assets/#css -->
+    <!-- If using Tailwind with Leptos CSR, see https://trunkrs.dev/assets/#tailwind instead-->
+    <link rel="stylesheet" href="/input-988f77f918a1c19d.css" integrity="sha384-MqPARYWOh2bRjAJ2wYz1+3AmV/gCseYC8LsOexVRaM55td41XAIZ5EOpH3Q8bdIa"/>
+
+    <!-- Include favicon in dist output: see https://trunkrs.dev/assets/#icon -->
+    <link rel="icon" href="/favicon-e50489a6ea015c7d.ico" integrity="sha384-nT5xigVymqDZ114/sfCQdqaP44RKal9DEnWG42Y3yIVwCnTvRW+tGiF+FWPlRYm4"/>
+    
+    <!-- SPA fallback: copy _redirects (Netlify) to dist root -->
+    
+    <!-- include support for `wasm-bindgen --weak-refs` - see: https://rustwasm.github.io/docs/wasm-bindgen/reference/weak-references.html -->
+    
+<script type="module">
+import init, * as bindings from '/elenalaw-250945049c1ae595.js';
+const wasm = await init({ module_or_path: '/elenalaw-250945049c1ae595_bg.wasm' });
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script>
+<link rel="modulepreload" href="/elenalaw-250945049c1ae595.js" crossorigin="anonymous" integrity="sha384-QItUhlCM/8Q9tqd+rp2xGXnyoYq3qVI8cFVHREaBGsXRUuejz2hj3rv4rQ2GEJnq"><link rel="modulepreload" href="/snippets/elenalaw-45fa4c398e00246d/public/navigation.js" crossorigin="anonymous" integrity="sha384-GIbN1IFdq4W9GOQwZTIKMNSPtybxCbOAho3j+PJ7pG3bk2BaFWZDvCRUP1SON0rJ"><link rel="preload" href="/elenalaw-250945049c1ae595_bg.wasm" crossorigin="anonymous" integrity="sha384-q04Fp9tw/1Z4og2KBacAsS8QpD7xqlRKj9Evvb3Zay89t8kotm3p1iJfBlsvyLrb" as="fetch" type="application/wasm"></head>
+
+<body>
+    <script src="/navigation-18dd96583be4c305.js" integrity="sha384-GIbN1IFdq4W9GOQwZTIKMNSPtybxCbOAho3j+PJ7pG3bk2BaFWZDvCRUP1SON0rJ" type="module"></script>
+</body>
+
+</html>
