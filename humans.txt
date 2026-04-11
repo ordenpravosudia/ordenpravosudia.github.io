@@ -1,0 +1,19 @@
+/* team
+/* site
+Орден Правосудия — юридическая компания в Москве
+https://орден-правосудия.рф
+
+/* developers
+Муханова Елена Васильевна — юрист (семейное, трудовое, гражданское право)
+Пугачев Михаил Сергеевич — судебный юрист (арбитраж, гражданский, административный процесс)
+
+/* contacts
+Телефон: +7 909 989 9515
+Email: ordenpravosudia@yandex.com
+Адрес: ул. Острякова, д. 8, Москва (метро Сокол, Аэропорт, Динамо, Войковская)
+
+/* social
+WhatsApp: https://wa.me/message/E7AQFQOXVGK5N1
+Telegram: https://t.me/ordenpravosudia
+VK: https://vk.ru/id1109792510
+MAX: https://max.ru/u/f9LHodD0cOKmu-aFFOd4yK1VoEISdT9nnP1NVZj2sPALrtSng9zmpghTkIM

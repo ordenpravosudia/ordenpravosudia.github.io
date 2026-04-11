@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Главная страница -->
+  <url>
+    <loc>https://орден-правосудия.рф/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Политика конфиденциальности -->
+  <url>
+    <loc>https://орден-правосудия.рф/policy</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Условия использования -->
+  <url>
+    <loc>https://орден-правосудия.рф/terms</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Тарифы -->
+  <url>
+    <loc>https://орден-правосудия.рф/tariffs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>

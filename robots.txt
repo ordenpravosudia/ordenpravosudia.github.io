@@ -1,0 +1,32 @@
+# robots.txt для https://орден-правосудия.рф
+# Разрешаем индексацию всего сайта для поисковых систем и AI
+
+User-agent: *
+Allow: /
+
+# Разрешаем AI-ботов
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Запрещаем только технические пути
+Disallow: /pkg/
+Disallow: /dist/
+Disallow: /assets/
+
+# Sitemap
+Sitemap: https://орден-правосудия.рф/sitemap.xml
+
+# LLM-файл
+Llms-File: https://орден-правосудия.рф/llms.txt
