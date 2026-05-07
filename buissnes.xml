@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<companies>
+  <company>
+    <company-id>orden-justice-main</company-id>
+    <name lang="ru">Орден Правосудия</name>
+    <address lang="ru">г. Москва, Россия</address>
+    <country lang="ru">Россия</country>
+
+    <phone>
+      <number>+7 (495) 123-45-67</number>
+      <type>phone</type>
+    </phone>
+    <email>info@орден-правосудия.рф</email>
+    <url>https://орден-правосудия.рф</url>
+    <info-page>https://орден-правосудия.рф/contacts</info-page>
+
+    <working-time lang="ru">пн-пт 9:00-18:00, сб 10:00-14:00</working-time>
+
+    <!-- Рубрика: Юридические услуги -->
+    <rubric-id>184107366</rubric-id>
+
+    <actualization-date>07.05.2026</actualization-date>
+
+    <!-- Специализации -->
+    <feature-text-single name="services" value="Консультации, иски, представительство в суде, семейные, трудовые, наследственные, корпоративные споры"/>
+    <feature-boolean name="online_consultation" value="1"/>
+    <feature-boolean name="free_first_consultation" value="1"/>
+    <feature-text-single name="price_range" value="от 1 ₽ до 200 000 ₽"/>
+
+    <photos gallery-url="https://орден-правосудия.рф/gallery">
+      <photo url="https://орден-правосудия.рф/img/logo.jpg" alt="Логотип">
+        <tag>LOGO</tag>
+      </photo>
+    </photos>
+  </company>
+</companies>

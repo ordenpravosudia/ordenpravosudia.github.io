@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2026-05-07T12:00:00+03:00">
+  <shop>
+    <name>Орден Правосудия</name>
+    <company>Юридическая фирма «Орден Правосудия»</company>
+    <url>https://орден-правосудия.рф</url>
+    <platform>Custom</platform>
+
+    <categories>
+      <category id="1">Юридические услуги</category>
+      <category id="10" parentId="1">Консультации и документы</category>
+      <category id="11" parentId="1">Семейные дела</category>
+      <category id="12" parentId="1">Трудовые споры</category>
+      <category id="13" parentId="1">Защита прав потребителей</category>
+      <category id="14" parentId="1">Наследственные дела</category>
+      <category id="15" parentId="1">Корпоративные споры</category>
+      <category id="16" parentId="1">Споры с госорганами</category>
+      <category id="17" parentId="1">Обжалование судебных актов</category>
+    </categories>
+
+    <offers>
+      <offer id="srv_001">
+        <name>Устная юридическая консультация</name>
+        <url>https://орден-правосудия.рф#consultation</url>
+        <price>1</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>10</categoryId>
+        <description>Анализ ситуации, ответы на вопросы по семейному, трудовому и гражданскому праву. Проводится юристом Мухановой Е.В. или Пугачевым М.С.</description>
+        <param name="Формат">Очно / Онлайн</param>
+        <param name="Длительность">до 30 минут</param>
+      </offer>
+
+      <offer id="srv_002">
+        <name>Письменное юридическое заключение</name>
+        <url>https://орден-правосудия.рф#documents</url>
+        <price>5000</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>10</categoryId>
+        <description>Подготовка развернутого юридического заключения по документам клиента. Включает анализ правовых рисков и рекомендации.</description>
+        <param name="Срок исполнения">до 3 рабочих дней</param>
+      </offer>
+
+      <offer id="srv_003">
+        <name>Подготовка искового заявления</name>
+        <url>https://орден-правосудия.рф#documents</url>
+        <price>30000</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>10</categoryId>
+        <description>Составление искового или административного искового заявления с приложением документов. Учитывает требования ГПК РФ, АПК РФ, КАС РФ.</description>
+      </offer>
+
+      <offer id="srv_011">
+        <name>Расторжение брака в суде</name>
+        <url>https://орден-правосудия.рф#family</url>
+        <price>30000</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>11</categoryId>
+        <description>Полное сопровождение: подготовка иска, представительство в суде, получение решения.</description>
+      </offer>
+
+      <offer id="srv_012">
+        <name>Раздел имущества супругов</name>
+        <url>https://орден-правосудия.рф#family</url>
+        <price>110000</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>11</categoryId>
+        <description>Выявление и оценка имущества, раздел недвижимости, бизнеса, транспортных средств. Защита от сокрытия активов.</description>
+      </offer>
+
+      <offer id="srv_013">
+        <name>Взыскание алиментов</name>
+        <url>https://орден-правосудия.рф#family</url>
+        <price>50000</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>11</categoryId>
+        <description>Взыскание алиментов в долях от дохода или в твердой денежной сумме. Увеличение размера при изменении обстоятельств.</description>
+      </offer>
+
+      <offer id="srv_021">
+        <name>Восстановление на работе</name>
+        <url>https://орден-правосудия.рф#labor</url>
+        <price>110000</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>12</categoryId>
+        <description>Обжалование незаконного увольнения, восстановление в должности, взыскание зарплаты за вынужденный прогул.</description>
+      </offer>
+
+      <offer id="srv_031">
+        <name>Возврат денег за некачественную услугу</name>
+        <url>https://орден-правосудия.рф#consumers</url>
+        <price>70000</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>13</categoryId>
+        <description>Претензионная работа и судебное взыскание убытков за некачественные товары и услуги: туризм, строительство, страхование.</description>
+      </offer>
+
+      <offer id="srv_041">
+        <name>Оспаривание завещания</name>
+        <url>https://орден-правосудия.рф#inheritance</url>
+        <price>100000</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>14</categoryId>
+        <description>Признание завещания недействительным, защита прав наследников, оспаривание действий нотариуса.</description>
+      </offer>
+
+      <offer id="srv_051">
+        <name>Обжалование решений собраний</name>
+        <url>https://орден-правосудия.рф#corporate</url>
+        <price>200000</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>15</categoryId>
+        <description>Оспаривание решений общих собраний участников/акционеров, восстановление корпоративного контроля.</description>
+      </offer>
+
+      <offer id="srv_061">
+        <name>Споры с госорганами</name>
+        <url>https://орден-правосудия.рф#government</url>
+        <price>150000</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>16</categoryId>
+        <description>Обжалование действий/бездействия государственных органов, оспаривание нормативных актов, защита в административных делах.</description>
+      </offer>
+
+      <offer id="srv_071">
+        <name>Обжалование судебных актов</name>
+        <url>https://орден-правосудия.рф#appeal</url>
+        <price>80000</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>17</categoryId>
+        <description>Подготовка апелляционных, кассационных жалоб, представительство в вышестоящих инстанциях.</description>
+      </offer>
+    </offers>
+  </shop>
+</yml_catalog>
